@@ -9,3 +9,4 @@ class RepositoriesController < ApplicationController
       @resp = Faraday.get 'https://api.github.com/search/repositories'
   end
 end
+end
